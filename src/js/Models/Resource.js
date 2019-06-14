@@ -54,6 +54,7 @@ export default class Resource extends BaseModel
     {
         return {
             creator: {first_name: null, last_name: null, username: null},
+            workflow_name: null,
             created: null,
             updated: null
         };
